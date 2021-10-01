@@ -1,0 +1,15 @@
+{
+    "recommends": "houdini_version >= '18.5.689'",
+
+    "env": [
+        {
+            "SATHOU": "F:/jylhou",
+        },
+        {
+            "HOUDINI_OTLSCAN_PATH": "$SATHOU;$HOUDINI_OTLSCAN_PATH",
+        },
+    ],
+    
+    "path": "$SATHOU",
+}
+
